@@ -325,7 +325,7 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>This is very imprecise, is there a syntax for 'must come after...' </string>
+			<string>Simplified syntax</string>
 			<key>match</key>
 			<string>\.\.</string>
 			<key>name</key>
