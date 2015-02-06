@@ -327,9 +327,17 @@
 			<key>comment</key>
 			<string>This is very imprecise, is there a syntax for 'must come after...' </string>
 			<key>match</key>
-			<string>(?&lt;!\s|^)\.\.(?=\d|\(|\$)</string>
+			<string>\.\.</string>
 			<key>name</key>
 			<string>keyword.operator.range.powershell</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Properties and methods</string>
+			<key>match</key>
+			<string>\.(\w)+</string>
+			<key>name</key>
+			<string>entity.name.function.invocation.powershell</string>
 		</dict>
 	</array>
 	<key>repository</key>
